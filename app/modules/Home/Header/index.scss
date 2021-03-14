@@ -1,0 +1,29 @@
+@use 'global' as global;
+
+.root {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: global.$side-bar-width;
+  height: global.$header-height;
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  
+  .avatar {
+    margin-right: 44px;
+    display: flex;
+    align-items: center;
+    img {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+    a {
+      color: #595959;
+    }
+  }
+}

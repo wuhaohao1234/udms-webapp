@@ -1,0 +1,14 @@
+
+
+.root {
+    display: flex;
+    .tree {
+        min-width: 380px;
+        background-color: #fff;
+        padding: 24px 20px;
+        margin-right: 18px;
+    }
+    .table {
+        width: 100%;
+    }
+}

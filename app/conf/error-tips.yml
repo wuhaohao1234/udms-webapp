@@ -1,0 +1,17 @@
+
+api:
+  # 全局错误代码
+  ERR_NONE_MATCHED_VERSION: "版本不匹配，请尝试升级客户端或刷新页面"
+  ERR_BAD_REQUEST: "错误的请求，请联系管理员"
+  ERR_INVALID_TOKEN: "无效的令牌，可能由于服务器升级导致，请重新登陆"
+  ERR_EXPIRED_TOKEN: "已过期的令牌，请重新登陆"
+  ERR_NOT_FOUND: "未找到对应资源"
+  ERR_DUP_ENTRY: "出现重复的数据，请修改内容"
+  ERR_NO_REFERENCED_ROW: "引用了无效或不存在的数据项"
+  ERR_IS_REFERENCED_ROW: "数据项正在被引用"
+  ERR_INVALID_PERMISSION: "无效的权限标记，请联系管理员"
+  ERR_PERMISSION_DENIED: "权限不足"
+
+  # 局部错误
+  ERR_LOGIN_FAILED: "登陆失败"
+

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true, // 装饰器功能
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": ["app/*"],
+      "@api/*": ["app/api/*"],
+      "@modules/*": ["app/modules/*"],
+      "@assets/*": ["app/assets/*"],
+      "@styles/*": ["app/styles/*"],
+      "@third_party/*": ["app/third_party/*"],
+      "@utils/*": ["app/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

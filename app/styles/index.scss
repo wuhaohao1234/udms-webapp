@@ -1,0 +1,54 @@
+//@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css");
+//$mdc-theme-primary: red;
+//$mdc-theme-secondary: red;
+
+@use "@material/theme" with (
+  $primary: #5882f0,
+);
+
+@use "@material/linear-progress" as linear-progress;
+@include linear-progress.core-styles;
+//@import '@material/linear-progress/mdc-linear-progress.import.scss';
+
+
+*,
+*::before,
+*::after 
+{
+  box-sizing: border-box;
+}
+// body {
+//   background-image: url(../assets/images/body.jpg);
+//   background-repeat: no-repeat;
+//   background-size: 100% 100%;
+// }
+#progressbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+#app {
+  overflow: hidden;
+}
+
+@keyframes fixedFadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 26px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fixedFadeInUp {
+  animation-name: fixedFadeInUp;
+}
+.ant-table-body {
+  overflow: auto !important;
+}

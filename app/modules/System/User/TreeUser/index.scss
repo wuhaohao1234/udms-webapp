@@ -1,0 +1,14 @@
+.root {
+  background-color: #fff;
+  .search-user {
+    padding: 20px;
+    .search-user-form {
+      min-width: 300px;
+    }
+  }
+  .feature-button {
+    padding: 20px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+  }
+}

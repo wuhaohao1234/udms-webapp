@@ -1,0 +1,50 @@
+
+# system:
+#   title: "系统管理"
+#   sort: 1
+#   sub-menu:
+#     add: {sort: 1, title: "添加", perm: "hierarchy.add"}
+#     update: {sort: 2, title: "更新", perm: "hierarchy.update"}
+#     delete: {sort: 3, title: "删除", perm: "hierarchy.delete"}
+#     modify: {sort: 4, title: "修改", perm: ["hierarchy.add", "hierarchy.update"]}
+#     fly:
+#       title: "起飞"
+#       sort: 5
+#       sub-menu:
+#         start: {title: "启动", perm: "hierarchy.start-fly"}
+#         end: {title: "结束", perm: "hierarchy.end-fly"}
+
+# entrustment:
+#   title: "委托单管理"
+#   sort: 2
+#   perm: ["entrustment.add", "entrustment.update"]
+    
+
+-
+  key: "system"
+  title: "系统管理"
+  sub-menu:
+    -
+      key: "hierarchy"
+      title: "组织层级管理"
+      sub-menu:
+        -
+          key: "add"
+          title: "添加"
+          perm: "hierarchy.add"
+        -
+          key: "update"
+          title: "更新"
+          perm: "hierarchy.update"
+        -
+          key: "delete"
+          title: "删除"
+          perm: "hierarchy.delete"
+        -
+          key: "modify"
+          title: "修改"
+          perm: ["hierarchy.add", "hierarchy.update"]         
+# -
+#   key: "entrustment"
+#   title: "委托单管理"
+#   perm: ["entrustment.add", "entrustment.update"]

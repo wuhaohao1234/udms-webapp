@@ -1,0 +1,23 @@
+.root {
+  // background-color: #fff;
+  .search-user {
+    padding: 20px;
+    .search-user-form {
+      margin-right: 40px;
+      min-width: 250px;
+    }
+  }
+  .feature-button {
+    padding: 20px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    button {
+      margin-right: 10px;
+    }
+  }
+  .operating {
+    a {
+      margin-right: 5px;
+    }
+  }
+}

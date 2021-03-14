@@ -1,0 +1,43 @@
+@use 'global' as global;
+
+.root {
+  position: fixed;
+  left: global.$side-bar-width;
+  top: 0;
+  bottom: 0;
+  width: global.$secondary-side-bar-width;
+  z-index: 2;
+  background-color: #FFFFFF;
+  box-shadow:0px 10px 16px 0px rgba(0, 0, 0, 0.08);
+  .title {
+    color: #595959;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 64px;
+    border-bottom: 1px solid #F0F0F0;
+    text-align: center;
+  }
+    ul,li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      width: 104px;
+      line-height: 42px;
+      text-align: center;
+      margin: 6px auto;
+      color: #595959;
+      cursor: pointer;
+    }
+    li:hover {
+      background-color: #F0F2F5;
+    }
+    .active {
+      color: #5982F0;
+    }
+    
+    // .active:hover {
+    //   background-color: #FFFFFF;
+    // } 
+}

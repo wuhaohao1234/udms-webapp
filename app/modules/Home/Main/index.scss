@@ -1,0 +1,19 @@
+@use 'global' as global;
+
+$gutter: 16px;
+
+.root {
+  // margin-left: global.$side-bar-width;
+  // margin-top: global.$header-height;
+  background-color: #F0F2F5;
+  // padding: 24px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  padding: 
+    global.$header-height + $gutter
+    $gutter
+    $gutter
+    global.$side-bar-width + $gutter;
+}

@@ -1,0 +1,15 @@
+-
+  title: "系统管理"
+  subMenu:
+    -
+      key: "hierarchy"
+      title: "组织架构"
+      url: "/system/hierarchy"
+    -
+      key: "hierarchy"
+      title: "用户管理"
+      url: "/system/user"
+    -
+      key: "hierarchy"
+      title: "角色权限"
+      url: "/system/role"

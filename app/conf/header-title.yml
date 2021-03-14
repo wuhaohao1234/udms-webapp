@@ -1,0 +1,22 @@
+"/": []
+
+"/system/hierarchy":
+  - breadcrumbName: "系统管理"
+  - breadcrumbName: "组织架构"
+
+"/system/user":
+  - breadcrumbName: "系统管理"
+  - breadcrumbName: "员工管理"
+
+"/system/permission":
+  - breadcrumbName: "系统管理"
+  - breadcrumbName: "权限管理"
+
+"/system/role":
+  - breadcrumbName: "系统管理"
+  - breadcrumbName: "角色权限"
+
+"/system/roleDetail":
+  - breadcrumbName: "系统管理"
+  - { breadcrumbName: "角色权限", path: '/system/role' }
+  - breadcrumbName: "设置权限"

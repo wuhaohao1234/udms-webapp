@@ -1,0 +1,53 @@
+@use 'global' as global;
+
+.root {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: global.$side-bar-width;
+  z-index: 1;
+  background-color: #485170;
+  .logo {
+    text-align: center;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3E4661;
+    span {
+      display: block;
+      font-size: 16px;
+      width: 70px;
+      color: white;
+      line-height: 35px;
+      font-weight: bold;
+    }
+  }
+  ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+  }
+  li {
+    height: 80px;
+    color: #8791AC;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  li:hover {
+    background-color: #5F6B92;
+  }
+  .active {
+    background-color: #5982F0;
+    color: #fff;
+  }
+  .active:hover {
+    background-color: #5982F0;
+    color: #fff;
+  }
+}
+

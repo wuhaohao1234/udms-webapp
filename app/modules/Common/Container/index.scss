@@ -1,0 +1,27 @@
+
+.root {
+  display: flex;
+  //justify-content: stretch;
+  align-items: stretch;
+  height: 100%;
+}
+
+.root--left-bar {
+  justify-content: start;
+}
+
+.left-bar {
+  flex: none;
+  width: 256px;
+  height: 100%;
+}
+
+.body {
+  flex: auto;
+  overflow: auto;
+  height: 100%;
+}
+
+.body--with-left-bar {
+  margin-left: 16px;
+}
